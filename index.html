@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="hero">
+        <h1 class="title">Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h2 class="card-header text-uppercase">Search for a city:</h2>
+                <form id="user-form" class="card-body">
+                    <input name="city" id="searchTerm" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-8">
+                <ul class="list list-group list-group-flush" id="city-list">
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class=container>
+        <h2 class="card-header text-uppercase" id="city-from-search"></h2>
+        <ul class="weather-condition" id="weather-condition">
+
+        </ul>
+    </div>
+
+    <main class="flex-row justify-space-between">
+        <div class="container">
+            <div class="row">
+                <h2 class="card-header text-uppercase" id="5-day-forecast">5-Day Forecast:</h2>
+                <div class="col-md-2" id="day-0"></div>
+                <div class="col-md-2" id="day-1"></div>
+                <div class="col-md-2" id="day-2"></div>
+                <div class="col-md-2" id="day-3"></div>
+                <div class="col-md-2" id="day-4"></div>
+                
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </main>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
