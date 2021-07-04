@@ -7,3 +7,5 @@ Built With HTML CSS Javascript jquery moment.js Bootstrap Open Weather API
 Website https://hages2.github.io/WeatherDashboard/
 
 Contribution Made with ❤️ by Stephanie
+
+![alt text] (https://hages2.github.io/WeatherDashboard/blob[main]/image.jpg?raw=true)
