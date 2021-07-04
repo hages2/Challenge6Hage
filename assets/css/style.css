@@ -1,0 +1,57 @@
+.forecast {
+   list-style-type: none; 
+}
+
+.card {
+    background-color: navy;
+    color: white;
+}
+
+.title {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+.search-header {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.col-md-8 {
+    text-align:center;
+}
+
+#current-weather-container {
+    text-align: left;
+};
+
+#forecast-container-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.forecast-card{ 
+    flex-grow: 1;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.uvi-box{ 
+    background-color: green;
+    color:white;
+}
+
+#current-weather-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.search-header {
+    font-size: larger;
+    font-weight: bold;
+}
