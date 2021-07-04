@@ -4,7 +4,7 @@ form.addEventListener("submit", myFunction);
 function myFunction(event) {
     event.preventDefault();
     //create a variable to hold the search input
-    var searchTerm = document.getElementById("searchTerm").value;
+    var searchTerm = document.getElementById("search-term").value;
     getGeoLocation(searchTerm)
     addCityToStorage (searchTerm)
 }
