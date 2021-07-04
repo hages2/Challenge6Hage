@@ -150,7 +150,11 @@ function render5DayForecast(days) {
 };
 
 function renderHistoryToList(){
-    var cities = JSON.parse(localStorage.getItem("cityHistory"));
+    var cities = JSON.parse(localStorage.getItem("cityHistory"))
+    if(!cities){
+        cities=[]
+        localStorage.setItem("cityHistory", JSON.stringify([]));
+    }
     var cityListUL = $("#city-list").addClass("city-ul");
     cityListUL.empty();
 
